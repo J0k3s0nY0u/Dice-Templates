@@ -117,11 +117,11 @@
     margin: -36px 0 0 -36px;
     box-shadow: 26px 26px, 52px 52px, 52px 0, 0 52px;
 }
-.left::after {
-    margin: -35px 0 0 -35px;
-    box-shadow: 25px 25px, 50px 50px;
-}
 .right::after {
     margin: -30px 0 0 -30px;
     box-shadow: 40px 0, 0 40px, 40px 40px;
+}
+.left::after {
+    margin: -35px 0 0 -35px;
+    box-shadow: 25px 25px, 50px 50px;
 }
