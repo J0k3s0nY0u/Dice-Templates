@@ -69,17 +69,14 @@ h2 {
 }
 
 .button {
+    border: 1px solid;
     background-color: aqua;
-    border: none;
     color: darkblue;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    padding: 6px 12px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 6px;
+    font-family: 'monospace';
     transition-duration: 0.4s;
 }
 .button:hover {
