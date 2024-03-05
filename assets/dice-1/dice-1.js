@@ -13,7 +13,7 @@ const randomDice =() => {
 };
 
 const rollDice = random => {
-    dice.style.animtion = 'rolling 3.5s';
+    dice.style.animation = 'rolling 3.5s';
 
     setTimeout(() => {
         switch (random) {
@@ -35,11 +35,12 @@ const rollDice = random => {
             case 6:
                 dice.style.transform = 'rotateX(180deg) rotateY(0deg)';
                 break;
+            
 
             default:
                 break;
         }
-        dice.style.transform = 'none';
+        dice.style.animation = 'none';
     }, 4050)
 }
 rollBtn.addEventListener('click', randomDice);
